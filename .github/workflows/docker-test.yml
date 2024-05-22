@@ -1,4 +1,4 @@
-```YAML
+#YAML
 name: Docker Tests  # Nom du workflow GitHub Actions
 
 on:  # Déclencheurs du workflow, dans ce cas, un push sur la branche "main"
@@ -23,7 +23,5 @@ jobs:  # Définition des tâches à exécuter dans le workflow
     - name: Exécution des tests Pytest  # Étape d'exécution des tests Pytest
       run: |  # Commandes à exécuter dans l'étape, utilisant un script multi-lignes
         pytest  # Commande pour lancer les tests Pytest
-```
 
-----
 
